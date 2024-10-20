@@ -223,19 +223,19 @@ footer{
     margin-left: -1200px;
 }
 #btn4:focus ~ .slides{
-    margin-left: -2400px;
+    margin-left: -1800px;
 }
 #btn5:focus ~ .slides{
-    margin-left: -4800px;
+    margin-left: -2400px;
 }
 #btn6:focus ~ .slides{
-    margin-left: -9600px;
+    margin-left: -3000px;
 }
 #btn7:focus ~ .slides{
-    margin-left: -19200px;
+    margin-left: -3600px;
 }
 #btn8:focus ~ .slides{
-    margin-left: -38400px;
+    margin-left: -4200px;
 }
   
 
