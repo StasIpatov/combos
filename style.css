@@ -178,6 +178,7 @@ footer{
     position: relative;
     width: 600px;
     margin: 50px auto;
+    text-align: center;
 }
 
 .switch{
@@ -205,37 +206,39 @@ footer{
 }
 
 .slider img{
-    width: 600px;
+    width: 50%;
+    min-width: 400px;
 }
 
 .slider-inner{
-    width: 600px;
+    width: 50%;
     overflow: hidden;
+    min-width: 400px;
 }
 
 #btn1:focus ~ .slides{
     margin-left: 0;
 }
 #btn2:focus ~ .slides{
-    margin-left: -600px;
+    margin-left: -400px;
 }
 #btn3:focus ~ .slides{
-    margin-left: -1200px;
+    margin-left: -800px;
 }
 #btn4:focus ~ .slides{
-    margin-left: -1800px;
+    margin-left: -1200px;
 }
 #btn5:focus ~ .slides{
-    margin-left: -2400px;
+    margin-left: -1600px;
 }
 #btn6:focus ~ .slides{
-    margin-left: -3000px;
+    margin-left: -2000px;
 }
 #btn7:focus ~ .slides{
-    margin-left: -3600px;
+    margin-left: -2400px;
 }
 #btn8:focus ~ .slides{
-    margin-left: -4200px;
+    margin-left: -2800px;
 }
   
 
