@@ -122,6 +122,11 @@ b{
     font-weight: 500px;
 }
 
+footer a{
+    color: white;
+    
+}
+
 footer{
         --s: 50px; /* control the size*/
         --c1: #c0b299;
