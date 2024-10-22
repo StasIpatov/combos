@@ -42,7 +42,11 @@ image{
     position: fixed;
     margin: 0px;
     float: left;
-    background-color: white;
+    background-image: linear-gradient(90deg, white, black);
+}
+
+.none{
+    background: rgba(240, 255, 255, 0);
 }
 
 .combos{
@@ -111,7 +115,7 @@ main{
 }
 /* footer */
 
-footer p{
+footer p, footer li{
     font-size: 20px;
     color: white;
     font-family: Comic Sans MS, Comic Sans, cursive;
