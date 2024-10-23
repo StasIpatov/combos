@@ -67,6 +67,12 @@ h1{
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
+.gif{
+    width: 7%;
+    position: fixed;
+    
+}
+
 header{
     background-color: rgba(0, 0, 0, 0.447);
 }
@@ -133,8 +139,8 @@ footer a{
 
 footer{
         --s: 50px; /* control the size*/
-        --c1: #c0b299;
-        --c2: #a4a9aa;
+        --c1: #4f4636;
+        --c2: #161717;
         --c3: #2c2e2a;
         
         --p:at 45% 40%,#0000 75%,;
