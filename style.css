@@ -37,6 +37,9 @@ image{
 
 
 
+
+
+
 .opr{
     width: 60px;
     position: fixed;
@@ -91,7 +94,7 @@ main p, main ul{
     color: white;
 }
 
-nav{
+.pc{
     width: calc(100% - 100px);
     /* max-width: 520px; */
     background-image: linear-gradient(45deg, orange, red);
@@ -100,7 +103,7 @@ nav{
     flex-wrap: wrap; */
 }
 
-nav a img{
+.pc a img{
     width: 25%;
     max-width: 250px;
     transition: 0.5s;
@@ -156,104 +159,37 @@ footer{
 
 /* slider */
 
-.container{
-    background-color: aqua;
-    padding: 20px;
-    width: 200px;
-    overflow: hidden;
+.slider{
     display: none;
 }
-.container div{
-    transition: 1s;
+
+.wrapper{
+    width: 70%;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 5px;
+    animation-name: anim;
+    animation-duration: 5s;
+    animation-direction:normal;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    background-image: linear-gradient(45deg, orange, red);
 }
 
-/* .pc img{
-    width: 200px;
-} */
-
-
-.container .btn1:focus ~ div{
-    background-color: blue;
-    margin-left: -100px;
-}
-
-.container .btn2:focus ~ div{
-    background-color: rgb(255, 0, 153);
-    margin-left:00px;
-}
-
-.slider input{
-    width: 20px;
-}
-
-
-  
-.slider {
-    display: none;
-    position: relative;
-    width: 600px;
-    margin: 50px auto;
-    text-align: center;
-}
-
-.switch{
-    position: absolute;
-    width: 100%;
-    bottom: 20px;
-    text-align: center;
-}
-
-/* .switch label{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 10px;
-    border-radius: 50%;
-    background-color: blue;
-
-} */
-
-.slider .slides{
-    width: 1800px;
+.img-container{
+    height: 200px;
+    /* width: 50%; */
     display: flex;
+    justify-content: center;
     align-items: center;
-    transition:  0.5s;
+    text-align: center;
 }
 
-.slider img{
-    width: 50%;
-    min-width: 400px;
-}
-
-.slider-inner{
-    width: 50%;
-    overflow: hidden;
-    min-width: 400px;
-}
-
-#btn1:focus ~ .slides{
-    margin-left: 0;
-}
-#btn2:focus ~ .slides{
-    margin-left: -400px;
-}
-#btn3:focus ~ .slides{
-    margin-left: -800px;
-}
-#btn4:focus ~ .slides{
-    margin-left: -1200px;
-}
-#btn5:focus ~ .slides{
-    margin-left: -1600px;
-}
-#btn6:focus ~ .slides{
-    margin-left: -2000px;
-}
-#btn7:focus ~ .slides{
-    margin-left: -2400px;
-}
-#btn8:focus ~ .slides{
-    margin-left: -2800px;
+.img-container img{
+    max-width: 100%;
+    max-height: 200px;
+    min-height: 150px;
+    min-width: 150px;
 }
   
 
@@ -269,5 +205,6 @@ footer{
 
     .slider{
         display: block;
+        
     }
 }

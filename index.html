@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Комбо Blox Fruit</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="style.css">
+    <script src="slick/slick.js"></script>
 </head>
 <body>
     <header>
@@ -26,44 +30,55 @@
             <a href="comboT-Rex.html"><img src="img/T-RexFruit.webp" alt=""></a>
             <a href="comboKitsune.html"><img src="img/KitsuneB.webp" alt=""></a>
         </nav>
-    <div class="slider">
-        <div class="switch">
-            <label for="btn1"></label>
-            <label for="btn2"></label>
-            <label for="btn3"></label>
-            <label for="btn4"></label>
-            <label for="btn5"></label>
-            <label for="btn6"></label>
-            <label for="btn7"></label>
-            <label for="btn8"></label>
-
-        </div>
-
-        <div class="slider-inner">
-            <input type="radio" name="switch" id="btn1" checked>
-            <input type="radio" name="switch" id="btn2">
-            <input type="radio" name="switch" id="btn3">
-            <input type="radio" name="switch" id="btn4">
-            <input type="radio" name="switch" id="btn5">
-            <input type="radio" name="switch" id="btn6">
-            <input type="radio" name="switch" id="btn7">
-            <input type="radio" name="switch" id="btn8">
+    
+        <div class="wrapper">
+            <div class="slider">
+                <div>
+                    <div class="img-container">
+                        <a href="comboDough.html"><img src="img/DoughB.webp" alt=""></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <a href="comboFlame.html"><img src="img/FlameB.webp" alt=""></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <a href="comboQuake.html"><img src="img/QuakeB.webp" alt=""></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <a href="comboSpider.html"><img src="img/SpiderB.webp" alt=""></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <a href="comboPortal.html"><img src="img/PortalB.webp" alt=""></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <a href="comboIce.html"><img src="img/IceB.webp" alt=""></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <a href="comboT-Rex.html"><img src="img/T-RexFruit.webp" alt=""></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="img-container">
+                        <a href="comboKitsune.html"><img src="img/KitsuneB.webp" alt=""></a>
+                    </div>
+                </div>
+                
             
+              </div>
+        </div>
+    
 
-
-            <div class="slides">
-            <a href="comboDough.html"><img src="img/DoughB.webp" alt=""></a>
-            <a href="comboFlame.html"><img src="img/FlameB.webp" alt=""></a>
-            <a href="comboQuake.html"><img src="img/QuakeB.webp" alt=""></a>
-            <a href="comboSpider.html"><img src="img/SpiderB.webp" alt=""></a>
-            <a href="comboPortal.html"><img src="img/PortalB.webp" alt=""></a>
-            <a href="comboIce.html"><img src="img/IceB.webp" alt=""></a>
-            <a href="comboT-Rex.html"><img src="img/T-RexFruit.webp" alt=""></a>
-            <a href="comboKitsune.html"><img src="img/KitsuneB.webp" alt=""></a>
-            </div>
-          </div>
-        
-    </div>
     </main>
     <footer>
         <p>Сайт буде постийно оновлюватись и зависит от скила та знання автара</p>
@@ -71,5 +86,42 @@
         <p>Gmail: <a href="https://www.google.com/search?q=rick+roll&oq=&gs_lcrp=EgZjaHJvbWUqBggBEEUYOzIGCAAQRRg5MgYIARBFGDsyBwgCEC4YgAQyDQgDEC4YxwEY0QMYgAQyBwgEEAAYgAQyBggFEEUYPTIGCAYQRRg8MgYIBxBFGD3SAQgxNjkxajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:d7b50f1f,vid:dQw4w9WgXcQ,st:0"> →тут←</a></p>
     </footer>
     <script src="anime.js"></script>
+    <script>
+        $('.slider').slick({
+          slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+      
+        ]
+        });
+        </script>
 </body>
 </html>
