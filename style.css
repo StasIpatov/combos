@@ -103,6 +103,8 @@ main p, main li{
     position: relative;
     top: 25px;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
