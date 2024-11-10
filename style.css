@@ -71,9 +71,9 @@ h1{
 }
 
 .gif{
-    width: 7%;
+    width: 15%;
     position: fixed;
-    
+    z-index: 1;
 }
 
 header{
@@ -82,17 +82,49 @@ header{
 /* main */
 main h2{
     color: rgb(255, 255, 255);
-    
     font-size: 40px;
     font-family: Comic Sans MS, Comic Sans, cursive;
-
 }
 
-main p, main ul{
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+main p, main li{
     font-family: Comic Sans MS, Comic Sans, cursive;
     font-size: 25px;
     color: white;
 }
+
+.asd{
+    margin-top: 20px;
+    position: relative;
+    top: 25px;
+    text-align: center;
+}
+
+
+
+.tap-button{
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(73, 73, 73, 0.5);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25%;
+    text-decoration: none;
+}
+
+.button{
+    margin: 30px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(30, 29, 29, 0.5);
+    color: white;
+    border-radius: 25%;
+    text-decoration: none;
+}
+
 
 .pc{
     width: calc(100% - 100px);
