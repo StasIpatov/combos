@@ -93,9 +93,13 @@ h3{
 }
 
 main p, main li{
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: Comic Sans MS, Comic Sans;
     font-size: 25px;
     color: white;
+}
+
+main a{
+    font-family: Comic Sans MS, Comic Sans;
 }
 
 .asd{
@@ -132,6 +136,10 @@ main p, main li{
 
 .button:hover, .tap-button:hover{
     transform: scale(110%);
+}
+
+.button:hover a, .tap-button:hover a{
+    font-weight: bold, 600;
 }
 
 .button:active, .tap-button:active{
