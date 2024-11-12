@@ -131,14 +131,12 @@ main p, main li{
 
 .pc{
     width: calc(100% - 100px);
-    /* max-width: 520px; */
+    text-align: center;
     background-image: linear-gradient(45deg, orange, red);
-    /* float: right; */
-    /* display: flex;
-    flex-wrap: wrap; */
 }
 
 .pc a img{
+    text-align: center;
     width: 25%;
     max-width: 250px;
     transition: 0.5s;
