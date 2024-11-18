@@ -169,7 +169,15 @@ main a{
     width: calc(100% - 100px);
     text-align: center;
     margin: 0 auto;
-    background-image: linear-gradient(45deg, orange, red);
+    background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    #005fff88 5%,
+    transparent 10%
+  ), repeating-linear-gradient(135deg,
+  transparent,
+  #005eff88 5%,
+  transparent 10%);
     border: 2px solid black;
 }
 
@@ -235,7 +243,15 @@ footer{
     animation-direction:normal;
     animation-iteration-count: infinite;
     animation-delay: 2s;
-    background-image: linear-gradient(45deg, orange, red);
+    background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    #005eff88 5%,
+    transparent 10%
+  ), repeating-linear-gradient(135deg,
+  transparent,
+  #005eff88 5%,
+  transparent 10%);
 }
 
 .img-container{
