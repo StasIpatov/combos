@@ -66,8 +66,8 @@ image{
 }
 
 iframe{
-    width: 552px;
-    height: 331px;
+    width: 552px, 75%;
+    height: 331px, 75%;
 }
 
 .yui{
