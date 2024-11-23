@@ -34,7 +34,7 @@ html {
     background-color: rgba(0, 0, 0, 0.502);
     /* min-height: 1075px; */
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     border: 2px solid black;
     flex-wrap: wrap;
 }
@@ -54,10 +54,16 @@ image{
     margin: 0px;
     float: left;
     background-image: linear-gradient(90deg, white, black);
+    transition: 0.5s;
 }
 
-.none{
-    background: rgba(240, 255, 255, 0);
+.opr:hover{
+    transform: scale(1.11) rotate(-0.03turn) translateY(10px);
+    transform-origin: 10px 10px; 
+}
+
+.opr:active{
+    transform: rotate(0.01turn);
 }
 
 .combos{
@@ -210,7 +216,7 @@ footer p, footer li{
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
-b{
+footer b{
     text-decoration: underline rgb(255, 255, 255);
     font-weight: 500px;
 }

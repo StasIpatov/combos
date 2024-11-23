@@ -1,19 +1,9 @@
-
-    let logo1 = anime({
-      targets: '.gif',
-      keyframes: [
-        50%{
-          scale: 0.5,
-          rotate: '2turn',
-        },
-        100%{
-          scale: 1,
-          rotate: '2turn',
-        }
-      ],
-      duration: 2000,
-      easing: "linear",
-      autoplay: true, 
-    })
-    
-    document.querySelector('.gif') .addEventListener('click', logo1.play)
+anime({
+  targets: ['.bg-image'],
+  points: '64 128 8.574 96 8.574 32 64 0 119.426 32 119.426 96',
+  baseFrequency: 0,
+  scale: 1,
+  loop: true,
+  direction: 'alternate',
+  easing: 'easeInOutExpo'
+});
