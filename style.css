@@ -135,7 +135,26 @@ main a{
     justify-content: center;
 }
 
+.secret{
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 10px;
+    height: 10px;
+}
 
+.secret-main{
+    background-color: rgba(3, 14, 83, 0.484);
+    border: 4px splid black;
+
+}
+
+.secret-main p, .secret-main h1, .secret-main h2, .secret-main a{
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.secret-main a{
+    color: mistyrose;
+}
 
 .tap-button{
     margin: 10px 20px 10px 20px;
