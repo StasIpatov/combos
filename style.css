@@ -49,9 +49,10 @@ image{
 }
 
 .opr{
-    width: 60px;
+    width: 62px;
     position: fixed;
     margin: 0px;
+    margin-left: -2px;
     float: left;
     background-image: linear-gradient(90deg, white, black);
     transition: 0.5s;
@@ -139,6 +140,7 @@ main a{
     background-color: rgba(0, 0, 0, 0.466);
     width: 10px;
     height: 10px;
+    position: relative;
 }
 
 .secret-main{
@@ -226,6 +228,13 @@ main{
     background-color: rgba(18, 17, 39, 0.95);
     border: 2px solid black;
     margin-top: 5px;
+}
+
+strike{
+    color: white;
+    z-index: 0.5;
+    position: fixed;
+    margin-top: 1px;
 }
 /* footer */
 
