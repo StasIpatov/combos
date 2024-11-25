@@ -143,6 +143,11 @@ main a{
     position: relative;
 }
 
+a.secret{
+    max-width: 10px;
+    max-height: 10px;
+}
+
 .secret-main{
     background-color: rgba(3, 14, 83, 0.484);
     border: 4px splid black;
