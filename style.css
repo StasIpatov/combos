@@ -225,14 +225,14 @@ a.secret{
 
 }
 
-nav a img:hover{
+/* nav a img:hover{
     transform: scale(110%);
 
-}
+} */
 
 nav a img:active{
     transform: scale(90%);
-} */
+} 
 
 main{
     background-color: rgba(18, 17, 39, 0.95);
@@ -257,11 +257,26 @@ strike{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.5);
     border: 5px ridge blue;
+    box-shadow: 2px 1px 2px 0 royalblue;
     min-height: 300px;
     margin: 10px 5px;
     text-decoration: none;
+    transition: 500ms;
   }
   
+  .pc a:hover {
+    position: relative;
+    display: inline-block;
+    transform: scale(105%);
+  }
+  
+  .pc a:active {
+    position: relative;
+    display: inline-block;
+    transform: scale(102%);
+  }
+
+
   .pc a .hover {
     position: absolute;
     max-height: 0;
