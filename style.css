@@ -244,7 +244,7 @@ strike{
     color: white;
     z-index: 0.5;
     position: fixed;
-    margin-top: 1px;
+    margin-top: 0px;
 }
 
 .pc a > h2 {
