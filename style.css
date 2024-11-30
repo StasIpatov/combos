@@ -1,5 +1,21 @@
 /* alternative */
 
+@font-face {
+    font-family: 'Minecraft';
+    src: url('fonts/minecraft.woff2')
+    format('woff2'),
+    url('fonts/minecraft.woff')
+    format('woff'),
+    url('fonts/minecraft.ttf')
+    format('truetype');
+}
+
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('fonts/minecraftia.ttf') format('truetype');
+}
+
+
 .bg-image{
     left:0;
     top: 0;
@@ -156,7 +172,11 @@ a.secret{
 .secret-main{
     background-color: rgba(3, 14, 83, 0.484);
     border: 4px splid black;
+    font-family: Minecraft;
+}
 
+.secret-main p{
+    font-family: 'Minecraftia', sans-serif;
 }
 
 .secret-main p, .secret-main h1, .secret-main h2, .secret-main a{
@@ -257,6 +277,7 @@ strike{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.5);
     border: 5px ridge blue;
+    border-radius: 10%;
     box-shadow: 2px 1px 2px 0 royalblue;
     min-height: 300px;
     margin: 10px 5px;
@@ -367,6 +388,21 @@ footer{
     min-width: 150px;
 }
   
+#search {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+  }
+  
+  #fruit-list li {
+    padding: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+
 
 @media (max-width: 1150px){
     .container{
