@@ -69,6 +69,7 @@ image{
     position: fixed;
     margin: 0px;
     margin-left: -2px;
+    z-index: 2;
     float: left;
     background-image: linear-gradient(90deg, white, black);
     transition: 0.5s;
@@ -91,6 +92,11 @@ image{
 iframe{
     width: 552px, 75%;
     height: 331px, 75%;
+    border-radius: 10%;
+    position: relative;
+    top: 10px;
+    bottom: 20px;
+    left: 10px;
 }
 
 .item{
@@ -100,7 +106,12 @@ iframe{
 
 .yui{
     background-color: rgba(114, 114, 114, 0.502);
-    float: left;
+    /* float: left; */
+    position: relative;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    margin-bottom: 10px;
     margin-right: 60px;
     min-width: 50px;
 }
@@ -225,6 +236,7 @@ a.secret{
 .pc{
     width: calc(100% - 100px);
     text-align: center;
+    border-radius: 1%;
     margin: 0 auto;
     background-image: repeating-linear-gradient(
     45deg,
@@ -350,10 +362,8 @@ footer{
 /* slider */
 
 .slider{
+    border-radius: 2%;
     display: none;
-}
-
-.wrapper{
     width: 70%;
     border: 2px solid black;
     margin: 0 auto;
