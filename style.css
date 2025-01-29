@@ -432,6 +432,7 @@ footer{
 .img-container a{
     color: rgb(255, 255, 255);
     font-size: 30px;
+    text-decoration: none;
     font-family: Comic Sans MS, Comic Sans, cursive;
     margin-left: 10px;
 }
