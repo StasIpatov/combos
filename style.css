@@ -26,6 +26,13 @@
 
 
 
+.gallery{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
 
 
 .pc a .big-hover {
@@ -395,7 +402,6 @@ footer{
     border-radius: 2%;
     display: none;
     width: 70%;
-    border: 2px solid black;
     margin: 0 auto;
     padding: 5px;
     animation-name: anim;
@@ -403,24 +409,31 @@ footer{
     animation-direction:normal;
     animation-iteration-count: infinite;
     animation-delay: 2s;
-    background-image: repeating-linear-gradient(
-    45deg,
-    transparent,
-    #005eff88 5%,
-    transparent 10%
-  ), repeating-linear-gradient(135deg,
-  transparent,
-  #005eff88 5%,
-  transparent 10%);
+    
 }
 
 .img-container{
-    height: 200px;
-    /* width: 50%; */
+    position: relative;
+    display: inline-block;
+    background: radial-gradient(#000000, #0c19ff99);
+    border: 5px ridge blue;
+    border-radius: 10%;
+    box-shadow: 2px 1px 2px 0 royalblue;
+    min-height: 300px;
+    margin: 10px 5px;
+    text-decoration: none;
+    transition: 500ms;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.img-container a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-left: 10px;
 }
 
 .img-container img{
