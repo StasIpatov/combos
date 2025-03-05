@@ -1,3 +1,60 @@
+.light-theme{
+    background-color: white;
+    color: black;
+
+    main, footer, header{
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #000;
+    }
+}
+
+.dark-theme{
+    background-color: rgb(84, 84, 84);
+    color: rgb(255, 255, 255);
+    header, main, footer{
+        background-color: rgba(18, 17, 39, 0.95);
+    }
+}
+
+.settings{
+    width: 50px;
+    transition: 1s;
+}
+.settings:hover{
+        transform: rotate(90deg);
+    }
+
+.settings-conteiner{
+    align-items: center;
+    float: right;
+}
+
+.theme-conteiner{
+    margin: 10px;
+    width: 90px;
+    height: 150px;
+    background-color: #34495e;
+    border: 2px solid rgb(150, 150, 150);
+    text-align: right;
+    display: none;
+    float: right;
+}
+
+.theme-conteiner button{
+    margin: 10px;
+    background-color: #f0f0f0;
+    color: black;
+    border: 2px solid rgb(150, 150, 150);
+    width: 60px;
+    text-align: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.theme-conteiner button:hover{
+    transform: scale(110%);
+}
+
 #chat-container {
     width: 90%;
     margin: 0 auto;
@@ -67,9 +124,9 @@
     height: 100vh;
 }
 
-html {
+/* html {
     background: url(img/2453c1d3c9a84fe6f9216f7a0ebb85e7.jpeg);
-  }
+  } */
 
 .allcombo{
     background-color: rgba(0, 0, 0, 0.502);
@@ -154,7 +211,6 @@ iframe{
 }
 /* header */
 h1{
-    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 50px;
     font-family: Comic Sans MS, Comic Sans, cursive;
@@ -172,14 +228,12 @@ header{
 }
 /* main */
 main h2{
-    color: rgb(255, 255, 255);
     font-size: 40px;
     font-family: Comic Sans MS, Comic Sans, cursive;
     margin-left: 10px;
 }
 
 h3{
-    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
@@ -187,7 +241,6 @@ h3{
 main p, main li{
     font-family: Comic Sans MS, Comic Sans;
     font-size: 25px;
-    color: white;
     margin-left: 10px;
 }
 
@@ -310,7 +363,6 @@ main{
 }
 
 strike{
-    color: white;
     z-index: 0.5;
     position: fixed;
     margin-top: 0px;
@@ -355,6 +407,7 @@ strike{
     overflow: hidden;
     border-bottom-left-radius: 9.1%;
     border-bottom-right-radius: 9.1%;
+    color: white;
     left: 0;
     bottom: 0;
     background: radial-gradient(#000000, #0c19ff99);
@@ -375,7 +428,6 @@ strike{
 
 footer p, footer li{
     font-size: 20px;
-    color: white;
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
@@ -384,10 +436,6 @@ footer b{
     font-weight: 500px;
 }
 
-footer a{
-    color: white;
-    
-}
 
 footer{
     background-color: rgba(18, 17, 39, 0.95);
@@ -409,6 +457,7 @@ footer{
     animation-direction:normal;
     animation-iteration-count: infinite;
     animation-delay: 2s;
+    text-align: center;
     
 }
 
@@ -417,9 +466,12 @@ footer{
     display: inline-block;
     background: radial-gradient(#000000, #0c19ff99);
     border: 5px ridge blue;
+    color: white;
     border-radius: 10%;
     box-shadow: 2px 1px 2px 0 royalblue;
     min-height: 300px;
+    min-width: 150px;
+    max-width: 300px;
     margin: 10px 5px;
     text-decoration: none;
     transition: 500ms;
