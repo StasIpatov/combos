@@ -19,10 +19,20 @@
 <body>
     <img src="img/2453c1d3c9a84fe6f9216f7a0ebb85e7.jpeg" alt="" class="bg-image">
     <header>
+        <div class="settings-conteiner">
+            <img src="img/7835443.png" alt="" class="settings">
+        </div>
         <!-- <img src="img/AvatarSite.png6g " alt="" class="gif"> -->
         <h1>Комбо Blox Fruit</h1>
     </header>
     <main>
+        <div class="theme-conteiner">
+            <button id="light-theme">Світла тема</button>
+            <br>
+            <button id="dark-theme">Темна тема</button>
+            <br>
+            <button id="contine">Далі</button>
+        </div>
         <nav class="asd">
             <a href="index.html" class="tap-button">Комбо</a>
             <a href="index2.html" class="button">Для чого потрібен баунті хант</a>
@@ -332,8 +342,8 @@
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 2,
+              slidesToScroll: 2,
               infinite: true,
               dots: true
             }
@@ -341,21 +351,16 @@
           {
             breakpoint: 600,
             settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
               slidesToShow: 1,
               slidesToScroll: 1
             }
-          }
+          },
+          
       
         ]
         });
         </script>
         <script src="anime.js"></script>
+        <script src="index.js"></script>
 </body>
 </html>
