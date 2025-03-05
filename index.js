@@ -15,14 +15,13 @@ contine.onclick = function(){
     tConteiner.style = 'display: none;'
 }
  
-darkTheme.onclick = function(){
-    bod.classList.add('dark-theme')
-    bod.classList.remove('light-theme')
-}
+// darkTheme.onclick = function(){
+//     bod.classList.add('dark-theme')
+//     bod.classList.remove('light-theme')
+// }
 
-lightTheme.onclick = function(){
-    bod.classList.add('light-theme')
-    bod.classList.remove('dark-theme')
-}
+// lightTheme.onclick = function(){
+//     bod.classList.add('light-theme')
+//     bod.classList.remove('dark-theme')
+// }
 
-і

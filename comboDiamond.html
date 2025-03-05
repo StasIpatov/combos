@@ -6,6 +6,18 @@
     <title>Алмаз комбо</title>
     <link rel="shortcut icon" href="img/AvatarSite2.png">
     <link rel="stylesheet" href="style.css">
+    <script>
+        // Функція для завантаження теми при завантаженні сторінки
+        function loadTheme() {
+            const theme = localStorage.getItem('theme'); // Отримання теми з локального сховища
+            if (theme) {
+                document.body.className = theme; // Застосування класу теми до тега body
+            }
+        }
+
+        // Завантаження теми при завантаженні документа
+        document.addEventListener('DOMContentLoaded', loadTheme);
+    </script>
 </head>
 <body>
     <img src="img/2453c1d3c9a84fe6f9216f7a0ebb85e7.jpeg" alt="" class="bg-image">

@@ -6,6 +6,17 @@
         background-color: rgba(255, 255, 255, 0.5);
         color: #000;
     }
+    .yui{
+        background-color: rgba(202, 202, 202, 0.502);
+        /* float: left; */
+        position: relative;
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        margin-bottom: 10px;
+        margin-right: 60px;
+        min-width: 50px;
+    }
 }
 
 .dark-theme{
@@ -13,6 +24,17 @@
     color: rgb(255, 255, 255);
     header, main, footer{
         background-color: rgba(18, 17, 39, 0.95);
+    }
+    .yui{
+        background-color: rgba(114, 114, 114, 0.502);
+        /* float: left; */
+        position: relative;
+        top: 10px;
+        left: 10px;
+        bottom: 10px;
+        margin-bottom: 10px;
+        margin-right: 60px;
+        min-width: 50px;
     }
 }
 
@@ -198,17 +220,7 @@ iframe{
     height: 30px;
 }
 
-.yui{
-    background-color: rgba(114, 114, 114, 0.502);
-    /* float: left; */
-    position: relative;
-    top: 10px;
-    left: 10px;
-    bottom: 10px;
-    margin-bottom: 10px;
-    margin-right: 60px;
-    min-width: 50px;
-}
+
 /* header */
 h1{
     text-align: center;

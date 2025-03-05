@@ -15,6 +15,35 @@
     <script src="slick/slick.js"></script>
     <link rel="stylesheet" href="style.css">
     <script src="anime.js"></script>
+    <script>
+        // Функція для встановлення теми
+        function setTheme(themeName) {
+            localStorage.setItem('theme', themeName); // Збереження теми в локальному сховищі
+            document.body.className = themeName; // Застосування класу теми до тега body
+        }
+
+        // Функція для завантаження теми при завантаженні сторінки
+        function loadTheme() {
+            const theme = localStorage.getItem('theme'); // Отримання теми з локального сховища
+            if (theme) {
+                document.body.className = theme; // Застосування класу теми до тега body
+            }
+        }
+
+        // Завантаження теми при завантаженні документа
+        document.addEventListener('DOMContentLoaded', loadTheme);
+
+        // Функція для завантаження теми при завантаженні сторінки
+        function loadTheme() {
+            const theme = localStorage.getItem('theme'); // Отримання теми з локального сховища
+            if (theme) {
+                document.body.className = theme; // Застосування класу теми до тега body
+            }
+        }
+
+        // Завантаження теми при завантаженні документа
+        document.addEventListener('DOMContentLoaded', loadTheme);
+    </script>
 </head>
 <body>
     <img src="img/2453c1d3c9a84fe6f9216f7a0ebb85e7.jpeg" alt="" class="bg-image">
@@ -27,9 +56,9 @@
     </header>
     <main>
         <div class="theme-conteiner">
-            <button id="light-theme">Світла тема</button>
+            <button id="light-theme" onclick="setTheme('light-theme')">Світла тема</button>
             <br>
-            <button id="dark-theme">Темна тема</button>
+            <button id="dark-theme" onclick="setTheme('dark-theme')">Темна тема</button>
             <br>
             <button id="contine">Далі</button>
         </div>
