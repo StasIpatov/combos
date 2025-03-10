@@ -123,6 +123,7 @@
     border-radius: 9.1%;
     left: 0;
     bottom: 0;
+    color: white;
     background: radial-gradient(#000000, #0c19ff99);
     transition: 1s;
   }
