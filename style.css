@@ -9,6 +9,7 @@
     .yui{
         background-color: rgba(202, 202, 202, 0.502);
         /* float: left; */
+        padding: 10px;
         position: relative;
         top: 10px;
         left: 10px;
@@ -28,6 +29,7 @@
     .yui{
         background-color: rgba(114, 114, 114, 0.502);
         /* float: left; */
+        padding: 10px;
         position: relative;
         top: 10px;
         left: 10px;
